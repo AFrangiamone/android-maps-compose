@@ -14,7 +14,7 @@ class PublishingConventionPlugin : Plugin<Project> {
 
             applyPlugins()
             configureJacoco()
-            configureVanniktechPublishing()
+            // configureVanniktechPublishing()
         }
     }
 
