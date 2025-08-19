@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew clean assembleRelease
+  - ./gradlew clean publishToMavenLocal -Psigning.enabled=false
