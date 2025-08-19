@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew clean publishToMavenLocal -x signMavenPublication
+  - ./gradlew clean publishToMavenLocal -x :maps-compose:signMavenPublication -x :maps-compose-utils:signMavenPublication -x :maps-compose-widgets:signMavenPublication
