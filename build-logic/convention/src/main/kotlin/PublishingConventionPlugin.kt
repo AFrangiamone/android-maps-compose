@@ -14,7 +14,7 @@ class PublishingConventionPlugin : Plugin<Project> {
 
             applyPlugins()
             configureJacoco()
-            // configureVanniktechPublishing()
+            configureVanniktechPublishing()
         }
     }
 
@@ -50,7 +50,7 @@ class PublishingConventionPlugin : Plugin<Project> {
             )
 
             publishToMavenCentral()
-            signAllPublications()
+            // signAllPublications()
 
             pom {
                 name.set(project.name)
